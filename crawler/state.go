@@ -7,7 +7,6 @@ package crawler
 import (
 	"time"
 
-	"github.com/khalidKhaliqi/crawl/crawler/data"
 	"github.com/benjaminestes/robots/v2"
 )
 
