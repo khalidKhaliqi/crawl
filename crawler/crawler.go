@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/khalidKhaliqi/crawl/crawler/data"
-	"github.com/khalidKhaliqi/robots/v2"
+	"github.com/benjaminestes/robots/v2"
 )
 
 type resolvedURL string
