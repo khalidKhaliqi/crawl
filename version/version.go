@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-const Version = "v0.2.0"
+const Version = "v0.22"
 
 // UserAgent contains a sane user agent per RFC7231 to use as a default
 func UserAgent() string {
