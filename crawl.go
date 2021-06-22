@@ -5,7 +5,7 @@
 // This package provides the command crawl, which performs
 // efficient and concurrent crawling. For details:
 //
-// https://github.com/benjaminestes/crawl
+// https://github.com/khalidKhaliqi/crawl
 package main
 
 import (
@@ -21,10 +21,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/benjaminestes/crawl/crawler"
-	"github.com/benjaminestes/crawl/schema"
-	"github.com/benjaminestes/crawl/sitemap"
-	"github.com/benjaminestes/crawl/version"
+	"github.com/khalidKhaliqi/crawl/crawler"
+	"github.com/khalidKhaliqi/crawl/schema"
+	"github.com/khalidKhaliqi/crawl/sitemap"
+	"github.com/khalidKhaliqi/crawl/version"
 )
 
 var (

@@ -7,8 +7,8 @@ package crawler
 import (
 	"time"
 
-	"github.com/benjaminestes/crawl/crawler/data"
-	"github.com/benjaminestes/robots/v2"
+	"github.com/khalidKhaliqi/crawl/crawler/data"
+	"github.com/khalidKhaliqi/robots/v2"
 )
 
 // A crawlfn represents a state of the crawler state machine.  Its
@@ -53,13 +53,13 @@ func crawlCheckRobots(c *Crawler) crawlfn {
 	if _, ok := c.robots[rtxtURL]; !ok {
 		c.addRobots(resolvedURL(rtxtURL))
 	}
-	if !c.robots[rtxtURL](addr.String()) {
-		// FIXME: Can this be some sort of "emit error" func?
-		result := data.MakeResult(addr.String(), c.depth, nil)
-		result.Status = "Blocked by robots.txt"
-		c.results <- result
-		return crawlNext
-	}
+//	if !c.robots[rtxtURL](addr.String()) {
+//		// FIXME: Can this be some sort of "emit error" func?
+//		result := data.MakeResult(addr.String(), c.depth, nil)
+//		result.Status = "Blocked by robots.txt"
+//		c.results <- result
+//		return crawlNext
+//	}
 	return crawlDo
 }
 

@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benjaminestes/crawl/crawler/data"
-	"github.com/benjaminestes/robots/v2"
+	"github.com/khalidKhaliqi/crawl/crawler/data"
+	"github.com/khalidKhaliqi/robots/v2"
 )
 
 type resolvedURL string

@@ -5,7 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/benjaminestes/crawl/version"
+	"github.com/khalidKhaliqi/crawl/version"
 )
 
 var defaultCrawler = Crawler{

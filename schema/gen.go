@@ -22,7 +22,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/benjaminestes/crawl/crawler/data"
+	"github.com/khalidKhaliqi/crawl/crawler/data"
 )
 
 // Does this have to be re-defined here?
