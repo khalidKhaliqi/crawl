@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/khalidKhaliqi/crawl/crawler/data"
-	"github.com/khalidKhaliqi/robots/v2"
+	"github.com/benjaminestes/robots/v2"
 )
 
 // A crawlfn represents a state of the crawler state machine.  Its
