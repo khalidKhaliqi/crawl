@@ -12,6 +12,8 @@ import (
 	"regexp"
 	"sync"
 	"time"
+	"fmt"
+	"log"
 
 	"github.com/khalidKhaliqi/crawl/crawler/data"
 	"github.com/benjaminestes/robots/v2"
@@ -253,7 +255,9 @@ func (c *Crawler) merge(links []*data.Link) {
 // the process.
 func (c *Crawler) fetch(addr resolvedURL) {
 	resp, err := requestAsCrawler(c, addr)
+	log.Printf("crawling...")
 	if err != nil {
+		log.Fatal(fmt.Errorf("%v", err))
 		// FIXME: Should this panic? Under what conditions would this fail?
 		return
 	}
